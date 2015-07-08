@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0D14C11B47353200AC7E2B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0D14C01B47353200AC7E2B /* libc++.dylib */; };
+		FA0D14C31B4735FE00AC7E2B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0D14C21B4735FE00AC7E2B /* Realm.framework */; };
+		FA0D14C91B47381800AC7E2B /* TrabajoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0D14C81B47381800AC7E2B /* TrabajoViewController.m */; };
+		FA0D14CC1B473AA100AC7E2B /* Trabajo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0D14CB1B473AA100AC7E2B /* Trabajo.m */; };
+		FA0D14CF1B47713F00AC7E2B /* HistorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0D14CE1B47713F00AC7E2B /* HistorialViewController.m */; };
+		FA0D14D71B4771DC00AC7E2B /* ConsultaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0D14D51B4771DC00AC7E2B /* ConsultaTableViewCell.m */; };
+		FA0D14D81B4771DC00AC7E2B /* ConsultaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0D14D61B4771DC00AC7E2B /* ConsultaTableViewCell.xib */; };
+		FA5B3E491B49858400E62ACB /* ConsultaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5B3E481B49858400E62ACB /* ConsultaTableViewController.m */; };
 		FAAF238B1B40D51C006DEA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF238A1B40D51C006DEA1E /* main.m */; };
 		FAAF238E1B40D51C006DEA1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF238D1B40D51C006DEA1E /* AppDelegate.m */; };
-		FAAF23911B40D51C006DEA1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF23901B40D51C006DEA1E /* ViewController.m */; };
 		FAAF23941B40D51C006DEA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAF23921B40D51C006DEA1E /* Main.storyboard */; };
 		FAAF23961B40D51C006DEA1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAF23951B40D51C006DEA1E /* Images.xcassets */; };
 		FAAF23991B40D51C006DEA1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAF23971B40D51C006DEA1E /* LaunchScreen.xib */; };
 		FAAF23A51B40D51C006DEA1E /* Tarea1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF23A41B40D51C006DEA1E /* Tarea1Tests.m */; };
+		FAAF23B91B40F074006DEA1E /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAF23B81B40F074006DEA1E /* PrincipalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0D14C01B47353200AC7E2B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FA0D14C21B4735FE00AC7E2B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		FA0D14C71B47381800AC7E2B /* TrabajoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrabajoViewController.h; sourceTree = "<group>"; };
+		FA0D14C81B47381800AC7E2B /* TrabajoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrabajoViewController.m; sourceTree = "<group>"; };
+		FA0D14CA1B473AA100AC7E2B /* Trabajo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trabajo.h; sourceTree = "<group>"; };
+		FA0D14CB1B473AA100AC7E2B /* Trabajo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trabajo.m; sourceTree = "<group>"; };
+		FA0D14CD1B47713F00AC7E2B /* HistorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorialViewController.h; sourceTree = "<group>"; };
+		FA0D14CE1B47713F00AC7E2B /* HistorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorialViewController.m; sourceTree = "<group>"; };
+		FA0D14D41B4771DC00AC7E2B /* ConsultaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultaTableViewCell.h; sourceTree = "<group>"; };
+		FA0D14D51B4771DC00AC7E2B /* ConsultaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultaTableViewCell.m; sourceTree = "<group>"; };
+		FA0D14D61B4771DC00AC7E2B /* ConsultaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsultaTableViewCell.xib; sourceTree = "<group>"; };
+		FA5B3E471B49858400E62ACB /* ConsultaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultaTableViewController.h; sourceTree = "<group>"; };
+		FA5B3E481B49858400E62ACB /* ConsultaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultaTableViewController.m; sourceTree = "<group>"; };
 		FAAF23851B40D51C006DEA1E /* Tarea1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAF23891B40D51C006DEA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAF238A1B40D51C006DEA1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAAF238C1B40D51C006DEA1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAAF238D1B40D51C006DEA1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAAF238F1B40D51C006DEA1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAAF23901B40D51C006DEA1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAAF23931B40D51C006DEA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAF23951B40D51C006DEA1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAAF23981B40D51C006DEA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAAF239E1B40D51C006DEA1E /* Tarea1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAF23A31B40D51C006DEA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAF23A41B40D51C006DEA1E /* Tarea1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tarea1Tests.m; sourceTree = "<group>"; };
+		FAAF23B71B40F074006DEA1E /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		FAAF23B81B40F074006DEA1E /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0D14C31B4735FE00AC7E2B /* Realm.framework in Frameworks */,
+				FA0D14C11B47353200AC7E2B /* libc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +83,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0D14BF1B47350B00AC7E2B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D14C21B4735FE00AC7E2B /* Realm.framework */,
+				FA0D14C01B47353200AC7E2B /* libc++.dylib */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		FA0D14D31B4771BB00AC7E2B /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D14D41B4771DC00AC7E2B /* ConsultaTableViewCell.h */,
+				FA0D14D51B4771DC00AC7E2B /* ConsultaTableViewCell.m */,
+				FA0D14D61B4771DC00AC7E2B /* ConsultaTableViewCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		FAAF237C1B40D51C006DEA1E = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +123,11 @@
 		FAAF23871B40D51C006DEA1E /* Tarea1 */ = {
 			isa = PBXGroup;
 			children = (
+				FAAF23B01B40D531006DEA1E /* Controller */,
+				FAAF23AF1B40D52B006DEA1E /* View */,
+				FAAF23AE1B40D524006DEA1E /* Model */,
 				FAAF238C1B40D51C006DEA1E /* AppDelegate.h */,
 				FAAF238D1B40D51C006DEA1E /* AppDelegate.m */,
-				FAAF238F1B40D51C006DEA1E /* ViewController.h */,
-				FAAF23901B40D51C006DEA1E /* ViewController.m */,
-				FAAF23921B40D51C006DEA1E /* Main.storyboard */,
 				FAAF23951B40D51C006DEA1E /* Images.xcassets */,
 				FAAF23971B40D51C006DEA1E /* LaunchScreen.xib */,
 				FAAF23881B40D51C006DEA1E /* Supporting Files */,
@@ -96,6 +138,7 @@
 		FAAF23881B40D51C006DEA1E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA0D14BF1B47350B00AC7E2B /* Framework */,
 				FAAF23891B40D51C006DEA1E /* Info.plist */,
 				FAAF238A1B40D51C006DEA1E /* main.m */,
 			);
@@ -117,6 +160,39 @@
 				FAAF23A31B40D51C006DEA1E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAAF23AE1B40D524006DEA1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D14CA1B473AA100AC7E2B /* Trabajo.h */,
+				FA0D14CB1B473AA100AC7E2B /* Trabajo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAAF23AF1B40D52B006DEA1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D14D31B4771BB00AC7E2B /* Custom Cell */,
+				FAAF23921B40D51C006DEA1E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FAAF23B01B40D531006DEA1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF23B71B40F074006DEA1E /* PrincipalViewController.h */,
+				FAAF23B81B40F074006DEA1E /* PrincipalViewController.m */,
+				FA0D14C71B47381800AC7E2B /* TrabajoViewController.h */,
+				FA0D14C81B47381800AC7E2B /* TrabajoViewController.m */,
+				FA0D14CD1B47713F00AC7E2B /* HistorialViewController.h */,
+				FA0D14CE1B47713F00AC7E2B /* HistorialViewController.m */,
+				FA5B3E471B49858400E62ACB /* ConsultaTableViewController.h */,
+				FA5B3E481B49858400E62ACB /* ConsultaTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +277,7 @@
 			files = (
 				FAAF23941B40D51C006DEA1E /* Main.storyboard in Resources */,
 				FAAF23991B40D51C006DEA1E /* LaunchScreen.xib in Resources */,
+				FA0D14D81B4771DC00AC7E2B /* ConsultaTableViewCell.xib in Resources */,
 				FAAF23961B40D51C006DEA1E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAF23911B40D51C006DEA1E /* ViewController.m in Sources */,
+				FAAF23B91B40F074006DEA1E /* PrincipalViewController.m in Sources */,
+				FA5B3E491B49858400E62ACB /* ConsultaTableViewController.m in Sources */,
+				FA0D14D71B4771DC00AC7E2B /* ConsultaTableViewCell.m in Sources */,
 				FAAF238E1B40D51C006DEA1E /* AppDelegate.m in Sources */,
+				FA0D14CF1B47713F00AC7E2B /* HistorialViewController.m in Sources */,
+				FA0D14CC1B473AA100AC7E2B /* Trabajo.m in Sources */,
+				FA0D14C91B47381800AC7E2B /* TrabajoViewController.m in Sources */,
 				FAAF238B1B40D51C006DEA1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tarea1",
+				);
 				INFOPLIST_FILE = Tarea1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tarea1",
+				);
 				INFOPLIST_FILE = Tarea1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +506,7 @@
 				FAAF23AA1B40D51C006DEA1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAF23AB1B40D51C006DEA1E /* Build configuration list for PBXNativeTarget "Tarea1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +515,7 @@
 				FAAF23AD1B40D51C006DEA1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
